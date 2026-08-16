@@ -2,7 +2,7 @@
 
 **Cybersecurity | Blue Team | SOC | Security Engineering**
 
-I'm building toward defensive cybersecurity work with a focus on threat detection, Windows security, SIEM, identity, network analysis, and practical security operations.
+I'm building toward defensive cybersecurity work with a focus on threat detection, Windows security, SIEM, identity, network analysis, application security, and practical security operations.
 
 My background includes software development, data, web systems, and technical problem solving. I'm now applying that foundation to cybersecurity through hands-on labs, security tooling, detection work, and structured study.
 
@@ -16,6 +16,7 @@ My background includes software development, data, web systems, and technical pr
 - Threat Detection
 - Identity & Access Management
 - Network Analysis
+- Web Application Security
 - Endpoint Monitoring
 - Security Hardening
 - Incident Investigation
@@ -23,6 +24,27 @@ My background includes software development, data, web systems, and technical pr
 ---
 
 ## Featured Security Projects
+
+### Web Application Security Assessment with OWASP ZAP
+
+Performed a controlled dynamic security assessment of OWASP Juice Shop using OWASP ZAP. Deployed the target with Docker, crawled the application, conducted active vulnerability scanning, reviewed HTTP evidence, analyzed risk, and documented remediation recommendations.
+
+**Key areas covered:**
+
+- Dynamic Application Security Testing (DAST)
+- Application spidering and attack-surface discovery
+- Active vulnerability scanning
+- HTTP request and response analysis
+- Content Security Policy assessment
+- Cross-Origin Resource Sharing (CORS) analysis
+- Information disclosure review
+- CWE/WASC interpretation
+- Vulnerability triage and risk analysis
+- Remediation recommendations
+- Formal ZAP security reporting
+
+**Project:**  
+[Web Application Security Assessment with OWASP ZAP](https://github.com/jamesdfordiii/web-application-security-assessment)
 
 ### Network Security Assessment & Host Enumeration with Nmap
 
@@ -99,10 +121,12 @@ Current lab environment includes:
 - Sysmon
 - PowerShell
 - Nmap
+- OWASP ZAP
+- Docker
 - VirtualBox
 - Windows Event Logs
 
-The lab is used for endpoint monitoring, Windows security testing, network analysis, log investigation, and blue-team practice.
+The lab is used for endpoint monitoring, Windows security testing, network analysis, web application assessment, log investigation, and blue-team practice.
 
 ---
 
@@ -121,7 +145,7 @@ The lab is used for endpoint monitoring, Windows security testing, network analy
 
 ### Security
 
-`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `Active Directory` `Kerberos` `MITRE ATT&CK` `Linux` `SIEM` `Network Analysis`
+`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `OWASP ZAP` `Active Directory` `Kerberos` `MITRE ATT&CK` `DAST` `Linux` `SIEM` `Network Analysis`
 
 ### Development
 
@@ -129,7 +153,7 @@ The lab is used for endpoint monitoring, Windows security testing, network analy
 
 ### Platforms
 
-`Windows` `Linux` `VirtualBox` `GitHub`
+`Windows` `Linux` `Docker` `VirtualBox` `GitHub`
 
 ---
 
@@ -151,6 +175,7 @@ Build a strong defensive-security portfolio through practical work in:
 - Security assessment
 - Incident investigation
 - SIEM analysis
+- Application security
 - Cloud security
 
 More cybersecurity projects are in development.
