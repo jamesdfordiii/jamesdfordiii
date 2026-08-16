@@ -24,6 +24,27 @@ My background includes software development, data, web systems, and technical pr
 
 ## Featured Security Projects
 
+### Network Security Assessment & Host Enumeration with Nmap
+
+Performed a structured network security assessment across a virtualized Windows and Active Directory environment using Nmap. Discovered live hosts, analyzed firewall behavior, enumerated exposed services, fingerprinted operating systems, and assessed SMB security controls on a domain controller.
+
+**Key areas covered:**
+
+- Network discovery and host identification
+- TCP SYN scanning
+- Windows Firewall exposure comparison
+- Service and version detection
+- Active Directory service enumeration
+- Kerberos, LDAP, DNS, SMB, RPC, and WinRM identification
+- OS fingerprinting and interpretation
+- Nmap Scripting Engine enumeration
+- SMB protocol analysis
+- SMB signing validation
+- Security control restoration after testing
+
+**Project:**  
+[Network Security Assessment & Host Enumeration with Nmap](https://github.com/jamesdfordiii/nmap-network-security-assessment)
+
 ### Active Directory Privileged Account Monitoring & SIEM Detection
 
 Built an Active Directory security lab and investigated privileged account activity from native Windows Security telemetry through centralized Wazuh detection and MITRE ATT&CK mapping.
