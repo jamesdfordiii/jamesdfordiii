@@ -25,6 +25,26 @@ My background includes software development, data, web systems, and technical pr
 
 ## Featured Security Projects
 
+### Linux Log Security Analysis & Automated Detection
+
+Built a Bash-based Linux security monitoring workflow that analyzes systemd journal telemetry for failed authentication activity, privileged command execution, and higher-interest administrative behavior. Added threshold-based alerting and automated report generation to support repeatable security triage.
+
+**Key areas covered:**
+
+- Linux systemd journal analysis with `journalctl`
+- PAM authentication failure monitoring
+- sudo and privileged-command auditing
+- High-interest command filtering
+- Nmap, Docker, systemctl, and package-management activity analysis
+- Bash scripting and automation
+- Detection threshold creation
+- Security event triage
+- Automated text-based reporting
+- Analyst contextualization of potentially suspicious activity
+
+**Project:**  
+[Linux Log Security Analysis & Automated Detection](https://github.com/jamesdfordiii/linux-log-security-analysis)
+
 ### Web Application Security Assessment with OWASP ZAP
 
 Performed a controlled dynamic security assessment of OWASP Juice Shop using OWASP ZAP. Deployed the target with Docker, crawled the application, conducted active vulnerability scanning, reviewed HTTP evidence, analyzed risk, and documented remediation recommendations.
@@ -125,8 +145,10 @@ Current lab environment includes:
 - Docker
 - VirtualBox
 - Windows Event Logs
+- Linux systemd journal
+- Bash security automation
 
-The lab is used for endpoint monitoring, Windows security testing, network analysis, web application assessment, log investigation, and blue-team practice.
+The lab is used for endpoint monitoring, Windows security testing, network analysis, web application assessment, Linux log analysis, security automation, log investigation, and blue-team practice.
 
 ---
 
@@ -145,7 +167,7 @@ The lab is used for endpoint monitoring, Windows security testing, network analy
 
 ### Security
 
-`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `OWASP ZAP` `Active Directory` `Kerberos` `MITRE ATT&CK` `DAST` `Linux` `SIEM` `Network Analysis`
+`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `OWASP ZAP` `Active Directory` `Kerberos` `MITRE ATT&CK` `DAST` `Linux` `Bash` `journalctl` `SIEM` `Network Analysis` `Log Analysis` `Detection Engineering`
 
 ### Development
 
