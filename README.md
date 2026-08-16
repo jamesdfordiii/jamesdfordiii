@@ -22,7 +22,28 @@ My background includes software development, data, web systems, and technical pr
 
 ---
 
-## Featured Security Project
+## Featured Security Projects
+
+### Active Directory Privileged Account Monitoring & SIEM Detection
+
+Built an Active Directory security lab and investigated privileged account activity from native Windows Security telemetry through centralized Wazuh detection and MITRE ATT&CK mapping.
+
+**Key areas covered:**
+
+- User account creation — Event ID 4720
+- Domain Admins membership changes — Event ID 4728
+- Successful network authentication — Event ID 4624
+- Kerberos and Logon Type 3 analysis
+- Special privileges assigned — Event ID 4672
+- Account disablement — Event ID 4725
+- PowerShell Security log investigation
+- Wazuh agent deployment on a Domain Controller
+- SIEM event correlation and threat hunting
+- MITRE ATT&CK mapping
+- Level 12 detection of a Domain Admins group modification
+
+**Project:**  
+[Active Directory SIEM Detection Lab](https://github.com/jamesdfordiii/active-directory-siem-detection-lab)
 
 ### Windows Endpoint Threat Detection & Investigation with Wazuh, Sysmon, and PowerShell
 
@@ -79,7 +100,7 @@ The lab is used for endpoint monitoring, Windows security testing, network analy
 
 ### Security
 
-`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `Active Directory` `Linux` `SIEM` `Network Analysis`
+`Wazuh` `Sysmon` `Windows Event Logs` `PowerShell` `Nmap` `Active Directory` `Kerberos` `MITRE ATT&CK` `Linux` `SIEM` `Network Analysis`
 
 ### Development
 
